@@ -1,0 +1,23 @@
+.products-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px;
+}
+.card{
+    width: 250px;
+    padding: 16px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px gray;
+}
+.card img{
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+button{
+    height:50px;
+    width:130px;
+    background-color: aqua; 
+    border-color: aqua;
+}
